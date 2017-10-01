@@ -6,7 +6,7 @@ class User():
 		print("hi {0}".format(self.name))
 
 
-class AdiminUser(User):
+class AdminUser(User):
 	def __init__(self, name, age):
 		super().__init__(name)
 		self.age = age

@@ -1,8 +1,11 @@
-import user
+#import mypackage.user
+import mypackage.user as mymodule #packageからの名前を作成
+
 
 #from user import AdiminUser, User //AdiminUserとUserだけ取得
+#from mypackage.user import AdiminUser, User //AdiminUserとUserだけ取得
 
-izumi = user.AdiminUser("Izumi", 20) #モジュール名忘れない
+izumi = mymodule.AdminUser("Izumi", 20) #モジュール名忘れない
 
 print(izumi.name)
 
